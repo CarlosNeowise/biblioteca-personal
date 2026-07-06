@@ -16,10 +16,17 @@ h4{
     color: rgb(79, 81, 219);
 }
 
+
 /*Titulo*/
 
 #titulo{
     text-align: center;
+}
+
+/*¿Porque te gusta leer?*/
+
+#TituloPri{
+    margin-left: 100px;
 }
 
 /*Descripcion*/
@@ -47,9 +54,8 @@ h4{
     /*overflow: hidden;*/
 
     /* Esto es opcional, solo para visualización, puedes quitarlo */
-    margin: 10px;
+    margin: 15px;
     display: inline-block;
-    background-color: white;
     vertical-align: top;
 
 }
@@ -102,6 +108,12 @@ h4{
     padding: 5px;
     border-radius: 5px; /*Bordes sobre las cajitas*/
     font-size: 16px;
+
+}
+
+/*Quitar el subrayado de las listas*/
+li a {
+    text-decoration: none;
 }
 
 h4{
